@@ -3,20 +3,22 @@
 }
 
 body {
-  display: flex;
-  height: 937px;
-  justify-content: center;
-  align-items: center;
-  font-size: 20px;
-  font-style: oblique;
-  background: linear-gradient(#000000, #880303);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+
+    display: flex;
+    height: 937px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-style: oblique;
+    background: linear-gradient(#4b2b2b, #dacaca);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 form {
-    background: radial-gradient(#c0bcbc, #ffffff, #ffffff);
+    background: radial-gradient(#888383, #8f7575, #3d3c3c);
+    border-style: dashed;
     justify-content: center;
     border-width: 8px;
     border-color: #7c7777;
