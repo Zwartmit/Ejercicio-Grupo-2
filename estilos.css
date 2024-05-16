@@ -1,4 +1,9 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 body {
+
     display: flex;
     height: 937px;
     justify-content: center;
@@ -16,19 +21,20 @@ form {
     border-style: dashed;
     justify-content: center;
     border-width: 8px;
-    border-color: #363434;
+    border-color: #7c7777;
     text-align: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 7px;
+    border: solid;
 }
 
 form .grupo {
-    position: relative;
-    text-align: center;
-    font-size: 18px;
-    margin: 30px
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  margin: 30px;
 }
 
 form .button {
-    margin: 10px
+  margin: 10px;
 }
